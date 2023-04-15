@@ -1,0 +1,42 @@
+[
+  {
+    "title": "웹개발의 봄, 스프링",
+    "instructor": "남병관 튜터",
+    "cost": 500000
+  },
+  {
+    "title": "웹개발 종합반",
+    "instructor": "이범규 튜터",
+    "cost": 450000
+  },
+  {
+    "title": "액셀보다 쉬운 SQL",
+    "instructor": "이범규 튜터",
+    "cost": 500000
+  },
+  {
+    "title": "알고보면 알기쉬운 알고리즘",
+    "instructor": "박현준 튜터",
+    "cost": 420000
+  },
+  {
+    "title": "가장 쉽게 배우는 머신러닝",
+    "instructor": "이태희 튜터",
+    "cost": 390000
+  },
+  {
+    "title": "게임개발 종합반",
+    "instructor": "이동현 튜터",
+    "cost": 430000
+  },
+  {
+    "title": "Zep으로 메타버스 개발 맛보기",
+    "instructor": "김상엽 튜터",
+    "cost": 0
+  },
+  {
+    "title": "제페토 메타버스 뉴월드 게임개발 종합반",
+    "instructor": "최규빈 튜터",
+    "cost": 330000
+  }
+]
