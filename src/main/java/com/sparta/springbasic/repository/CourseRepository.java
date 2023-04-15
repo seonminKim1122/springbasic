@@ -1,14 +1,15 @@
 package com.sparta.springbasic.repository;
 
-import com.sparta.springbasic.dto.CourseRequestDto;
 import com.sparta.springbasic.dto.CourseResponseDto;
 import com.sparta.springbasic.entity.Course;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+@Repository
 public class CourseRepository {
 
     private static final Map<Long, Course> table = new HashMap<>();

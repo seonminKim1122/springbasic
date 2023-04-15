@@ -3,6 +3,7 @@ package com.sparta.springbasic.controller;
 import com.sparta.springbasic.dto.CourseRequestDto;
 import com.sparta.springbasic.dto.CourseResponseDto;
 import com.sparta.springbasic.service.CourseService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,7 +12,12 @@ import java.util.List;
 @RequestMapping("/course") // 요청이 들어올 때 localhost:8080/course/~~ 가 되게 만들어 줌.
 public class CourseController {
 
-    private final CourseService courseService = new CourseService();
+    private final CourseService courseService;
+
+    @Autowired
+    public CourseController(CourseService courseService){
+        this.courseService = courseService;
+    }
     @PostMapping("/create") // POST 요청에 대한 처리를 할 거다.
     public String createCourse(@RequestBody CourseRequestDto requestDto) {
         return courseService.createCourse(requestDto);
