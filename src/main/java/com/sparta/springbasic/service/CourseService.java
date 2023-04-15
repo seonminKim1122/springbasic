@@ -60,7 +60,7 @@ public class CourseService {
                 () -> new NullPointerException("선택한 강의가 존재하지 않습니다.")
         );
 
-        courseRepository.delete(id);
+        courseRepository.delete(course);
 
         return "강의 삭제에 성공했습니다.";
     }
